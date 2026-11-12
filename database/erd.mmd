@@ -1,0 +1,37 @@
+erDiagram
+    CUSTOMERS {
+        INT customer_id PK
+        VARCHAR first_name
+        VARCHAR last_name
+        VARCHAR phone_number
+        VARCHAR email
+        DATETIME created_at
+    }
+
+    PRODUCTS {
+        INT product_id PK
+        VARCHAR product_name
+        TEXT description
+        DECIMAL price
+        BOOLEAN is_available
+        DATETIME created_at
+    }
+
+    ORDERS {
+        INT order_id PK
+        INT customer_id FK
+        DATETIME order_date
+        VARCHAR order_status
+    }
+
+    ORDER_ITEMS {
+        INT order_item_id PK
+        INT order_id FK
+        INT product_id FK
+        INT quantity
+        DECIMAL unit_price
+    }
+
+    CUSTOMERS ||--o{ ORDERS : places
+    ORDERS ||--o{ ORDER_ITEMS : contains
+    PRODUCTS ||--o{ ORDER_ITEMS : included_in
