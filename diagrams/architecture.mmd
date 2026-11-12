@@ -1,0 +1,22 @@
+flowchart TD
+    A["Customer Browser"] --> B["Internet"]
+    B --> C["Application Load Balancer"]
+
+    subgraph VPC["Keepsake Moments VPC"]
+        subgraph PUBLIC["Public Subnets"]
+            C
+        end
+
+        subgraph PRIVATE["Private Subnets"]
+            D["EC2 Application Servers"]
+            E[("Amazon RDS Database")]
+        end
+
+        C --> D
+        D --> E
+    end
+
+    D --> F[("Amazon S3 - Product Images")]
+    G["AWS IAM - Access Control"] -.-> D
+    H["Amazon CloudWatch - Monitoring"] -.-> D
+    H -.-> E
