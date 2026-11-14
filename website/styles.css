@@ -22,4 +22,6 @@ nav a {
   text-decoration: none;
   color: #704052;
 }
-
+nav a:hover {
+    color: #ffffff;
+}
