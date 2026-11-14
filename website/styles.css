@@ -31,4 +31,5 @@ nav a:hover {
   padding:20px;
   margin: 10px;
   border: 1px solid #f0d5dd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
 }
