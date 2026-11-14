@@ -36,4 +36,5 @@ nav a:hover {
 .product-container {
   display: flex;
   gap: 20px;
+  justify-content: center;
 }
