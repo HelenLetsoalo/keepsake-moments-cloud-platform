@@ -38,7 +38,8 @@ nav a:hover {
   width: 280px;
   display: flex;
   flex-direction: column;
-  align-items: center 
+  align-items: center; 
+  gap: 12px;
 }
 .product-container {
   display: flex;
