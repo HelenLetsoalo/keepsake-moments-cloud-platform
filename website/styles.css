@@ -12,3 +12,6 @@ p {
 nav {
   background-color: #e8b7c5;
 }
+nav ul {
+  list-style: none;
+}
