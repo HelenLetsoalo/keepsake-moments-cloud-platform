@@ -18,4 +18,8 @@ nav ul {
   justify-content: center;
   gap: 30px;
 }
+nav a {
+  text-decoration: none;
+  color: #704052;
+}
 
