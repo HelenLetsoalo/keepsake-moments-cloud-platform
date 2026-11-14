@@ -25,3 +25,7 @@ nav a {
 nav a:hover {
     color: #ffffff;
 }
+.product-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+}
