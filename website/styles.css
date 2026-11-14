@@ -28,4 +28,5 @@ nav a:hover {
 .product-card {
   background-color: #ffffff;
   border-radius: 12px;
+  padding:20px;
 }
