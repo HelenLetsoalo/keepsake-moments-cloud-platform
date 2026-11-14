@@ -57,3 +57,9 @@ nav a:hover {
     justify-content: center;
     font-size: 40px;
 }
+.product-card h3 {
+    color: #8f5368;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
