@@ -105,4 +105,9 @@ main {
     border-radius: 12px;
     margin-top: 20px;
 }
+#about h2 {
+    color: #8f5368;
+    text-align: center;
+    margin-bottom: 15px;
+}
 
