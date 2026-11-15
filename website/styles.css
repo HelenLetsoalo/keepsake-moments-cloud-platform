@@ -99,4 +99,10 @@ main {
     font-size: 26px;
     margin-bottom: 25px;
 }
+#about {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
 
