@@ -84,3 +84,8 @@ footer {
 main {
   padding: 30px
 }
+.hero {
+  background-color: #f8e3e9;
+  padding: 30px;
+  border-radius: 12px;
+}
