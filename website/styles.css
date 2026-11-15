@@ -70,3 +70,8 @@ nav a:hover {
     text-align: center;
     margin: 0;
 }
+.product-card .price {
+    color: #8f5368;
+    font-size: 18px;
+    font-weight: bold;
+}
