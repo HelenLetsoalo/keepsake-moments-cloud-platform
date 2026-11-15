@@ -75,3 +75,10 @@ nav a:hover {
     font-size: 18px;
     font-weight: bold;
 }
+footer {
+  background-color: #8f5368;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+}
+
