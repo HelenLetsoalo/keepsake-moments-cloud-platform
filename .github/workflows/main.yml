@@ -1,0 +1,6 @@
+name: Deploy Keepsake Moments Website
+
+on:
+  push:
+    branches:
+      - main
