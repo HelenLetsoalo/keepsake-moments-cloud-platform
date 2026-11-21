@@ -4,5 +4,13 @@ const detailsButton = document.querySelector(".details-button");
 const productDetails = document.querySelector(".product-details");
 
 detailsButton.addEventListener("click", function() {
-    productDetails.style.display = "block";
+
+    if (productDetails.style.display === "none") {
+        productDetails.style.display = "block";
+        detailsButton.textContent = "Show Less";
+    } else {
+        productDetails.style.display = "none";
+        detailsButton.textContent = "Show More Details";
+    }
+
 });
