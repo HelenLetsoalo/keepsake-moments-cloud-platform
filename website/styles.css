@@ -130,5 +130,5 @@ main {
   font-weight: bold;
 }
 .product-details {
-  displays: none;
+  display: none;
 }
