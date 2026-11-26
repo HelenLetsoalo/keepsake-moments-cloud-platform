@@ -6,7 +6,13 @@ public class Product {
     private double price;
 
     public Product(String name, String description, double price){
+        if(name == null || name.isBlank()) {
+            throw new IllegalArgumentException("Name must have a value");
+        }
         this.name = name;
+        if(description == null|| description.isBlank() ) {
+            throw new IllegalArgumentException("Description must not be empty");
+        }
         this.description = description;
         if(price <= 0) {
             throw new IllegalArgumentException("Price must be greater than 0");
